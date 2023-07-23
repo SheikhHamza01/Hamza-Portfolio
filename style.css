@@ -1,0 +1,339 @@
+body {
+
+    background-color: #13111A;
+}
+header {
+    background-color: #13111A;
+    margin: 0%;
+    margin-left: 1%;
+    overflow: hidden;
+}
+
+/*Nav Styling*/
+
+.navi {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1%;
+}
+.navi h2{
+    color: white;
+    margin-left: 2px;
+}
+.navi ul {
+    overflow: auto;
+    margin: 0%;
+    margin-right: 5%;
+
+
+}
+
+.navi li {
+    float: left;
+    list-style: none;
+    margin: 12px 30px;
+
+}
+
+.navi li a {
+    text-decoration: none;
+    padding: 3px 3px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+.navi li a:hover{
+    color: #B7B4C7;
+}
+
+/*About*/
+
+
+.about {
+    height: 360px;
+    width: 90%;
+    margin-left: 5%;
+    top: 161px;
+    border-radius: 22px;
+    background: #1D1A27;
+
+}
+
+.abouttxt h5{
+    font-size: 15px;
+}
+
+.abouttxt {
+    width: 60%;
+    display: inline-block;
+    color: #B7B4C7;
+    margin-left: 5%;
+    overflow: hidden;
+}
+
+.anchor{
+    color: #B7B4C7;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.content {
+    color: white;
+    width: 35%;
+    font-family: Work Sans;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+    text-align: justify;
+
+}
+
+.vector-img {
+    margin-left: 1%;
+}
+
+.para {
+    width: 90%;
+    text-align: justify;
+}
+
+.nftlogo {
+    width: 34%;
+    display: inline-block;
+
+}
+
+.imgnft {
+    height: 321px;
+    margin-left: 15%;
+    padding: 5% 0% 0%;
+}
+
+.mid{
+    border-radius: 22px;
+    background: #1D1A27;
+    text-align: center;
+    color: #B7B4C7;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.blocks {
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.blocks .nft:hover{
+    background-color: #13111A;
+}
+.blocks .nft .block-area:hover{
+    color: white;
+  background: none;
+  transform:scale(1.05) ;
+}
+.blocks .stake:hover{
+    background-color: #13111A;
+}
+.blocks .stake .block-area:hover{
+    color: white;
+  background: none;
+  transform:scale(1.05) ;
+}
+.blocks .vote:hover{
+    background-color: #13111A;
+}
+.blocks .vote .block-area:hover{
+    color: white;
+  background: none;
+  transform:scale(1.05) ;
+}
+.nft {
+    height: 377px;
+    width: 382px;
+    left: 121px;
+    top: 762.0000305175781px;
+    border-radius: 22px;
+    background: #1D1A27;
+    display: inline-block;
+    color: #B7B4C7;
+    overflow: hidden;
+
+}
+
+.block-content {
+    color: white;
+}
+
+.block-area {
+    margin-left: 0%;
+}
+.block-area h4{
+    text-align: center;
+    font-size: 20px;
+}
+.block-area p{
+    text-align: center;
+    font-size: 21px;
+    
+}
+.log {
+    width: 17%;
+    height: 16%;
+}
+
+.stake {
+    height: 377px;
+    width: 382px;
+    left: 121px;
+    top: 762.0000305175781px;
+    border-radius: 22px;
+    background: #1D1A27;
+    display: inline-block;
+    margin-left: 2%;
+    overflow: hidden;
+    color: #B7B4C7;
+}
+
+.vote {
+    height: 377px;
+    width: 382px;
+    left: 121px;
+    top: 762.0000305175781px;
+    border-radius: 22px;
+    background: #1D1A27;
+    display: inline-block;
+    margin-left: 2%;
+    overflow: hidden;
+    color: #B7B4C7;
+}
+
+
+.skill {
+    height: 360px;
+    width: 90%;
+    margin-left: 5%;
+    /* top: 50px; */
+    border-radius: 22px;
+    background: #1D1A27;
+}
+
+
+.skilltxt {
+    width: 40%;
+    display: inline-block;
+    color: #B7B4C7;
+    margin-left: 5%;
+    overflow: hidden;
+    height: 360px;
+    margin-top: 3px;
+}
+
+
+
+.skillcontent {
+    color: white;
+    width: 65%;
+    font-family: Work Sans;
+    font-size: 22px;
+    font-weight: 700;
+    text-align: left;
+    text-align: justify;
+
+}
+.skillpara{
+    font-size: 19px;
+}
+
+.skills{
+    width: 50%;
+    display: inline-block;
+    overflow: hidden;
+    height: 360px;
+    color: white;
+    font-size: 25px;
+    margin-left: 3%;
+}
+.skill ul li{
+    list-style-type: circle;
+    margin-top: 5%;
+}
+
+.contact .contact-content .row{
+    display: flex;
+    height: 65px;
+    align-items: center;
+}
+.contact .contact-content .row .info{
+    margin-left: 30px;
+}
+.contact .contact-content .row i{
+    font-size: 25px;
+    color: crimson;
+}
+.contact .contact-content .info .head{
+    font-weight: 500;
+}
+.contact .contact-content .info .sub-title{
+    color: #333;
+}
+form .fields{
+    display: flex;
+}
+form .field,
+form .fields .field{
+    height: 45px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+form .textarea{
+    height: 80px;
+    width: 100%;
+}
+form .name{
+    margin-right: 10px;
+}
+form .field input,
+form .textarea textarea{
+    height: 100%;
+    width: 100%;
+    border: 1px solid lightgrey;
+    border-radius: 6px;
+    outline: none;
+    padding: 0 15px;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.3s ease;
+}
+form .field input:focus,
+form .textarea textarea:focus{
+    border-color: #b3b3b3;
+}
+form .textarea textarea{
+  padding-top: 10px;
+  resize: none;
+}
+form .button-area{
+  display: flex;
+  align-items: center;
+}
+ form .button-area button{
+  color: #fff;
+  display: block;
+  width: 160px!important;
+  height: 45px;
+  outline: none;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 6px;
+  cursor: pointer;
+  flex-wrap: nowrap;
+  background: crimson;
+  border: 2px solid crimson;
+  transition: all 0.3s ease;
+}
+ form .button-area button:hover{
+  color: crimson;
+  background: none;
+}
